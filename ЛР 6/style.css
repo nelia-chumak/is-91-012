@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+  
+body {
+    background: #ffe7d1;
+    font-family: Montserrat;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#weather_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+}
+
+#city{
+    font-size: 6rem;
+    align-self: center;
+    margin-bottom: 3rem;
+    color:red;
+    text-shadow: black 0 0 2px
+}
+
+.day{
+    width: 30%;
+    font-size: 1.5rem;
+    background-color: #f0e7df;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 0.5rem;
+}
